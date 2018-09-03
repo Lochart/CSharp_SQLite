@@ -1,0 +1,29 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <DebugType>pdbonly</DebugType>
+    <DebugSymbols>true</DebugSymbols>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Xamarin.Forms" Version="3.1.0.697729" />
+    <PackageReference Include="sqlite-net-pcl" Version="1.4.118" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Remove="App.xaml.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Renderer\" />
+    <Folder Include="Table\" />
+    <Folder Include="SQL_Command\" />
+    <Folder Include="Style\" />
+    <Folder Include="Style\Structure_ListView\" />
+    <Folder Include="Style\Structure_ListView\CellView\" />
+    <Folder Include="Page\" />
+    <Folder Include="Style\Structure_Button\" />
+  </ItemGroup>
+</Project>

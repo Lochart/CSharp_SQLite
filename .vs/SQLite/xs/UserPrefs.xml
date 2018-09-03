@@ -1,0 +1,25 @@
+﻿<Properties StartupConfiguration="{495347A8-DE6C-497C-AB3F-6B17861F2F0A}|Default">
+  <MonoDevelop.Ide.ItemProperties.SQLite.UITests FirstBuild="True" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="SQLite/Page/Main_Page.cs">
+    <Files>
+      <File FileName="SQLite/Page/Main_Page.cs" Line="1" Column="1" />
+      <File FileName="SQLite/Table/Anime.cs" Line="5" Column="20" />
+      <File FileName="SQLite/SQL_Command/Anime_Command.cs" Line="1" Column="1" />
+      <File FileName="SQLite/Style/Structure_ListView/Structure_ListView.cs" Line="1" Column="14" />
+      <File FileName="SQLite/Style/Structure_ListView/CellView/Anime_Cell.cs" Line="1" Column="14" />
+      <File FileName="SQLite/Page/Page_Command_Add.cs" Line="24" Column="57" />
+      <File FileName="SQLite/Page/Page_Command_Update.cs" Line="57" Column="48" />
+      <File FileName="SQLite/Style/Structure_Button/Structure_Button.cs" Line="1" Column="1" />
+      <File FileName="SQLite/Renderer/ISQLite.cs" Line="4" Column="6" />
+      <File FileName="SQLite/App.cs" Line="18" Column="14" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.SQLite.Android PreferredExecutionTarget="Android.Android_Accelerated_Nougat" />
+  <MonoDevelop.Ide.ItemProperties.SQLite.iOS FirstBuild="True" />
+</Properties>
