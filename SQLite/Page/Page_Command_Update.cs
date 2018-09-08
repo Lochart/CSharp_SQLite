@@ -25,7 +25,7 @@ namespace SQLite
                 FontSize = 14
             };
 
-            var update_S = Structure_Button.Custom_Button("Обвноить");
+            var update_S = Structure_Button.Custom_Button("Обновить");
             update_S.Clicked += Update_S;
 
             view.Children.Add(entry);
